@@ -197,7 +197,7 @@ fn spawn_meshes(
             // encode_weights([255, 0, 0, 0])
         })
         .collect();
-    sphere_mesh.insert_attribute(ATTRIBUTE_MATERIAL_WEIGHTS, material_weights);
+    // sphere_mesh.insert_attribute(ATTRIBUTE_MATERIAL_WEIGHTS, material_weights);
 
     commands.spawn(MaterialMeshBundle {
         mesh: meshes.add(sphere_mesh),

@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies.bevy]
 git = "https://github.com/bevyengine/bevy"
-rev = "910f984"
+rev = "13f50c7a"
 default-features = false
 features = [
     "bevy_asset",
